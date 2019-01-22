@@ -12,7 +12,7 @@ echo
 echo "Building '${folder}'..."
 echo "Executing '${command}'..."
 echo
-bash -c ${command}
+bash -c "${command}"
 exitCode=$?
 
 exit ${exitCode}
